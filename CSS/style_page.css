@@ -1,0 +1,389 @@
+@import url("../webfonts/Waffle_Story/stylesheet.css");
+@import url("../webfonts/Always_Lovely/stylesheet.css");
+@import url("../webfonts/Louis_George_Cafe/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap&effect=fire');
+* {
+    padding: 0;
+    margin: 0;
+}
+header  ,nav,main,footer{
+    width: 1024px;
+    color: #1B1A1A;
+    text-shadow: 0px 0px;
+    background-color: #D3CCBE;
+    height: 250px;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+}
+main section  {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 800px;
+    padding: 30px;
+    background-color: #C1A26E;
+}
+
+nav {
+    background-color: #B67717;
+    width: 1024px;
+    height: 50px;
+}
+main {
+    background-color: #DAB988;
+    width: 1024px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header h1  {
+    width: 75%;
+    margin: 75px auto;
+    padding: 30px 0;
+    height: 50px;
+    text-align: center;
+    font-family: berkshire-swash;
+    font-style: normal;
+    font-weight: 400;
+    color: #503409;
+    font-size: 40px;
+}
+main section ol  ,main section p, main setion h2, main section ul{
+    width: 700px;
+}
+main section ul {
+}
+h5 {
+    width: 300px;
+    padding: 10px 0;
+    margin: 10px auto;
+    height: auto;
+}
+footer 
+{
+    background-color: #B67717;
+    width: 1024px;
+    height: 100px;
+}
+#img_enlace {
+    width: 261px;
+    height: 251px;
+}
+#menu_principal {
+    color: #DFEAEF;
+}
+#menu_principal li a {
+    text-decoration: none;
+    width: 150px;
+    border: 20px;
+    height: 30px;
+    padding-top: 10px;
+}
+#menu_principal li {
+    width: 150px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 18px;
+}
+#menu_principal li a:link {
+    color: #F6EFDA;
+}
+#menu_principal li a:visited {
+    color: #5A4508;
+}
+#menu_principal li a:hover {
+    color: #37271C;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #FFEECB;
+    width: 150px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: 30px;
+}
+section p a:link {
+    color: #4F2C01;
+}
+#menu_principal li {
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+#tabla_2 {
+    width: 800px;
+    border-left-color: #DECAAA;
+    border-right-color: #DECAAA;
+    border-top-color: #DECAAA;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+#tabla_2 tbody tr:nth-child(even) {
+    background-color: #FFEECB;
+}
+#tabla_2 thead tr:nth-child(odd) {
+    background-color: #A7815B;
+}
+#tabla_2 tbody tr td , #tabla_2 thead th{
+    padding: 5px;
+    border: 3px solid #FFEECB;
+}
+#tabla_3 {
+}
+#tabla_3 tbody tr td {
+    border-bottom: 2px solid #FFEECB;
+    width: 800px;
+}
+#tabla_3 tbody tr:hover {
+    background-color: #FFEECB;
+}
+#tabla_4 {
+    width: 800px;
+}
+#tabla_4 tbody tr td   , #tabla_4 thead th{
+    width: 800px;
+    border-width: 3px;
+    border-color: #857247;
+}
+#tabla_4 tbody tr:hover {
+    background-color: #F3B85F;
+}
+#tabla_4 tbody tr:nth-child(odd)  {
+    background-color: #A58F5E;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+#tabla_4 tbody tr:nth-child(even) {
+    background-color: #DAB577;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+#tabla_4 thead tr:nth-child(odd) {
+    background-color: #FFEECB;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#lista_1 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#lista_2 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#lista_3 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#lista_3 li ul {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#marcador_page_final {
+}
+#parrafo_enlace {
+    text-align: right;
+    color: #B67717;
+    width: 0px;
+}
+#marcador_page_inicio {
+}
+#img_inicio {
+    width: 189px;
+    height: auto;
+}
+#menu_principal {
+}
+#img_playa {
+    width: 800px;
+    height: auto;
+}
+.imagen_size {
+    width: 700px;
+    height: auto;
+}
+.imagen_centrada {
+    margin: 0 auto;
+}
+.imagen_flotante_derecha {
+    float: right;
+}
+.imagen_flotante_izquierda {
+    float: left;
+    width: 103px;
+    height: auto;
+    padding-right: 10px;
+}
+.imagen_fondo {
+    background-image: url(../MEDIOS/2118486.jpg);
+    background-size: 900px auto;
+}
+.imagen_redondeada {
+    border-top-left-radius: 312px;
+    border-bottom-right-radius: 312px;
+}
+.video_size {
+    width: 50%;
+    height: auto;
+}
+.imagen_derecha {
+    text-align: right;
+    margin-left: 400px;
+    padding-left: 200px;
+    margin-top: 10px;
+}
+#form1 label {
+    padding: 5px;
+    color: #513305;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+#form1 input[type=text]  {
+    background-color: #FFEECB;
+    color: #503409;
+    padding: 6px;
+    width: 90%;
+    border-radius: 18px;
+}
+#form1 {
+    margin: 10px auto;
+    width: 50%;
+    background-color: #B67717;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+#form1 #enviar {
+    padding-top: 15px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: #C1A26E;
+    height: 15%;
+    color: #503409;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#form2 {
+    background-color: #B67717;
+    margin: 10px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 29px;
+}
+#form2 table {
+    margin: 20px;
+}
+#form2 input[type=text]  ,#form2 input[type=email]{
+    padding: 5px;
+    width: 100%;
+    border-radius: 161px;
+}
+#form2 input[type=text]focus #form2 input[type=email] {
+    background-color: #B67717;
+    color: #D4B87E;
+}
+#form2 #select {
+    padding: 25px;
+    width: 100%;
+    background-color: #C1A26E;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    color: #503409;
+    border-radius: 24px;
+}
+#form2 #textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 13px;
+    background-color: #C1A26E;
+    padding: 20px;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#form2 input[type=submit] {
+    width: 30%;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #503409;
+    color: #FFEECB;
+    font-weight: bold;
+    border-radius: 139px;
+}
+#form2 label {
+    color: #FFEECB;
+    padding: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    border-top-left-radius: 36px;
+}
+#menu_principal {
+}
+.fuentes_1 {
+    font-family: "Always Lovely";
+    font-size: xx-large;
+	font-family: 'Handlee', cursive;
+}
+.fuentes_2 {
+    font-family: "Louis George Cafe";
+}
+main section p {
+    font-family: "Louis George Cafe";
+    font-style: normal;
+    font-weight: lighter;
+}
+h2 {
+    font-family: handlee;
+    font-style: normal;
+    font-weight: bold;
+    font-size: x-large;
+}
+.size_beach {
+    width: 20%;
+    height: auto;
+}
